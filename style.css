@@ -53,10 +53,32 @@ a {
 
 .randominfo {
     display:flex;
-    justify-content:center;
-    width:200px;
-    height:200px;
+    flex-flow:column nowrap;
+    align-items:center;
+    flex:1;
 }
+
+.cards {
+    display:flex;
+    border-width:10px;
+    border-color:red;
+    border-style:solid;
+}
+
+.randomheader {
+    color:#1F2937;
+    font-size:36px;
+    font-weight: 900;
+}
+
+.randomcontainer {
+    display:flex;
+    border-width:10px;
+    border-color:blue;
+    border-style:solid;
+ }
+
+
 
 .footer {
     flex: 0 0 50px;
