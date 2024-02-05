@@ -70,8 +70,8 @@ a {
     border-width:10px;
     border-color:red;
     border-style:solid;
-    max-height:200px;
-}
+    max-height:300px;
+    }
 
 
 
@@ -80,10 +80,52 @@ a {
     border-width:10px;
     border-color:blue;
     border-style:solid;
+    max-width:100%;
+    height:auto;
  }
 
+ .quote {
+    display:flex;
+    flex-direction: column;
+    background-color:#E5E7EB;
+    font-size:36px;
+    color:#1F2937;
+    padding:150px;
+ }
 
+.quotetext {
+    font-style:italic;
+}
+
+ .quoteattribution {
+    font-weight:bolder;
+    text-align:right;
+ }
+
+ .signupsection {
+    display:flex;
+    color:#E5E7EB;
+    padding:100px;
+    background-color:#3882F6;
+ }
+
+.action {
+ 
+}
+
+.actiontext {
+
+}
+
+.signupbutton2 {
+    color:#E5E7EB;
+    background-color:#3882F6;
+    border-radius:4px;
+    border:2px;
+    border-color:#E5E7EB;
+}
 
 .footer {
     flex: 0 0 50px;
+    background-color:#1F2937;
 }
